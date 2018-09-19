@@ -15,4 +15,4 @@ phases:
     - echo This always runs even if the update or install command fails
   artifacts:
     files:
-    - target/my-app-1.0-SNAPSHOT.jar
+      destination: - target/my-app-1.0-SNAPSHOT.jar
