@@ -3,6 +3,10 @@ os: linux
 files:
 - source: /
   destination: /var/www/html
+
+- source: /pom.xml
+  destionationL: /var/www/html/test
+
 #permissions:
 #- object: /var/www/html
 #hooks:
