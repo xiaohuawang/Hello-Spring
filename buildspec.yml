@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+#env:
+#  variables:
+#    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
+#  parameter-store:
+#    LOGIN_PASSWORD: "dockerLoginPassword"
+
+phases:
+  install:
+    commands:
+    - echo Entered the install phase...
+    - mvn install
+    finally:
+    - echo This always runs even if the update or install command fails
+  artifacts:
+    files:
+    - target/my-app-1.0-SNAPSHOT.jar
