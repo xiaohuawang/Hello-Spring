@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # go to the jar directory
-JAR_DIRECTORY=/var/www/html/result/target
+JAR_DIRECTORY=/var/www/html/result/
 cd $JAR_DIRECTORY
 
 # use java to excute jar file
