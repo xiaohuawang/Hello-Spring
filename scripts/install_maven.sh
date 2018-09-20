@@ -1,5 +1,6 @@
 #!/bin/bash
 # Script for installing Maven on Amazon Linux
+echo "install_maven start" > /var/log/install_maven.out 2>&1
 
 MVN_VERSION=3.5.4
 # MVN_MD5=2fcfdb327eb94b8595d97ee4181ef0a6

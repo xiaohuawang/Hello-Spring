@@ -1,4 +1,7 @@
 #!/bin/bash
+
+echo "install_jdk start" > /var/log/install_jdk.out 2>&1
+
 set -e
 
 SERIES=${1:-8}
