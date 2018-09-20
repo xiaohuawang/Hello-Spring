@@ -1,4 +1,6 @@
 #!/bin/bash
+
+echo "test" > /var/log/install_dependencies.out 2>&1
 # check if mvn is installed
 if type -p mvn;
 then
