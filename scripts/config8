@@ -1,0 +1,6 @@
+DIR=jdk1.8.0_181
+ARCHIVE=jdk-8u181-linux-x64
+SITE=8u181-b13/96a7b8442fe848ef90c96a2fad6ed6d1
+
+ALIAS=java-8-oracle
+BASE=/usr/lib/jvm
