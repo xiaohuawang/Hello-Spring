@@ -1,8 +1,8 @@
 version: 0.0
 os: linux
 files:
-- source: ./my-app-1.0-SNAPSHOT.jar
-  destination: /var/www/html/result
+- source: .
+  destination: /var/www/
 hooks:
   ApplicationStart:
   - location: scripts/start_application.sh
