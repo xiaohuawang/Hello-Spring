@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo '$PWD' > /var/log/install_jdk.out 2>&1
+echo "$PWD" > /var/log/install_jdk.out 2>&1
 
 set -e
 

@@ -2,7 +2,7 @@
 
 # check if mvn is installed
 
-echo '$PWD' > /var/log/install_dependencies.out 2>&1
+echo "$PWD" > /var/log/install_dependencies.out 2>&1
 if type -p mvn;
 then
     echo "found maven executable in PATH"
