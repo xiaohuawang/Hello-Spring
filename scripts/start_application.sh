@@ -5,4 +5,4 @@
 # cd $JAR_DIRECTORY
 
 # use java to excute jar file
-java -jar my-app-1.0-SNAPSHOT.jar
+java -jar demo-0.0.1-SNAPSHOT.jar
