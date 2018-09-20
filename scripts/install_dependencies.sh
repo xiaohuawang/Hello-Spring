@@ -1,6 +1,7 @@
 #!/bin/bash
 
-echo "test" > /var/log/install_dependencies.out 2>&1
+echo "test start" > /var/log/install_dependencies.out 2>&1
+
 # check if mvn is installed
 if type -p mvn;
 then
@@ -18,5 +19,7 @@ else
     echo "can't find jdk, installing jdk..."
     sudo bash ./install_jdk.sh
 fi
+
+echo "test end" > /var/log/install_dependencies.out 2>&1
 
 echo "end of install_dependencies..."
