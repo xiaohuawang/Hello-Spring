@@ -6,7 +6,7 @@ then
     echo "found maven executable in PATH"
 else
     echo "can't find maven in PATH"
-    bash ./install_maven.sh
+    bash scripts/install_dependencies.sh
 fi
 
 # check if jdk is installed
@@ -15,7 +15,7 @@ then
     echo "found jdk"
 else
     echo "can't find jdk, installing jdk..."
-    sudo bash ./install_jdk.sh
+    sudo bash scripts/install_jdk.sh
 fi
 
 echo "install_dependencies end" > /var/log/install_dependencies.out 2>&1
