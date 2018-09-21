@@ -3,6 +3,14 @@ os: linux
 files:
 - source: .
   destination: /var/www/lol
+permissions:
+- object: /var/www/lol
+  pattern: "*application.sh"
+  owner: ec2-user
+  group: wheel
+  mode: 755
+  type:
+  - file
 hooks:
   ApplicationStart:
 #  - location: scripts/start_application.sh
